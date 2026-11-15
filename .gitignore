@@ -1,0 +1,3 @@
+*.vsix
+node_modules/
+themes/bauhaus-color-theme.json

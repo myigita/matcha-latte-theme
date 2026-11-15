@@ -1,0 +1,7 @@
+.git/**
+.gitignore
+build.py
+scripts/**
+themes/bauhaus-color-theme.json
+images/*.svg
+*.vsix

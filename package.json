@@ -1,0 +1,44 @@
+{
+  "name": "matcha-latte-theme",
+  "displayName": "Matcha Latte",
+  "description": "A matcha boba latte colour theme in three roasts: dark, light and OLED.",
+  "version": "0.1.0",
+  "publisher": "myigita",
+  "license": "MIT",
+  "icon": "images/icon.png",
+  "galleryBanner": {
+    "color": "#26221C",
+    "theme": "dark"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/myigita/matcha-latte-theme"
+  },
+  "bugs": {
+    "url": "https://github.com/myigita/matcha-latte-theme/issues"
+  },
+  "keywords": ["theme", "matcha", "latte", "boba", "brown", "green", "pastel", "cozy", "oled", "light", "dark"],
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": ["Themes"],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Matcha Latte",
+        "uiTheme": "vs-dark",
+        "path": "./themes/matcha-latte-color-theme.json"
+      },
+      {
+        "label": "Matcha Latte Light",
+        "uiTheme": "vs",
+        "path": "./themes/matcha-latte-light-color-theme.json"
+      },
+      {
+        "label": "Matcha Latte OLED",
+        "uiTheme": "vs-dark",
+        "path": "./themes/matcha-latte-oled-color-theme.json"
+      }
+    ]
+  }
+}
