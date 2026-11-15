@@ -5,3 +5,4 @@ scripts/**
 themes/bauhaus-color-theme.json
 images/*.svg
 *.vsix
+images/preview-*.png
